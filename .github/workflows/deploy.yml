@@ -78,7 +78,7 @@ jobs:
             s nginx -t
             s systemctl enable --now nginx
 
-      # CD: copy the three website files from the runner to the server.
+      # CD: copy the three website files from the runner to the server. and run
       - name: Copy application to EC2
         uses: appleboy/scp-action@v1
         with:
