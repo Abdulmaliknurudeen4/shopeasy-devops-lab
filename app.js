@@ -4,6 +4,7 @@
 const VALID_CODE = "CLOUD20";
 const BASE_PRICE = 25000;
 const DISCOUNT_RATE = 0.20;
+const VALID_CODE =
 // ------------------------------------------------------------
 
 // Grab the page elements we need
